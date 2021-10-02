@@ -11,7 +11,7 @@ const PORT = 3333;
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send(`Está piscando está gravando `);
+    res.send(`Está piscando está gravando`);
 });
 
 app.use('/estado', groupRouter);
