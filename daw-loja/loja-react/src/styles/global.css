@@ -1,0 +1,121 @@
+/* * configuração para todo o layout */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #FFF;
+    color: #29292e;
+}
+
+header {
+    background-color: #fff;
+}
+header .navbar-brand,
+header nav li a.active,
+header nav li a:hover {
+    color: #a237cc !important;
+}
+header nav li {
+    text-transform: uppercase;
+}
+.products,
+.collection{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin: 32px 0px;
+    justify-content: center;
+}
+.products .card-body .details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+.products .details .price {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.products .details .star-rating, 
+.products .details .price h3{
+    color: #a237cc;
+}
+.products .details .price p{
+    font-size: 12px;
+}
+.newsletter{
+    background-color: #f7f9fa;
+
+}
+.newsletter .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.newsletter h2{
+    color: #a237cc;
+    font-weight: 400;
+    font-size: 40px;
+}
+.newsletter form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+.newsletter form input {
+    width: 300px;
+}
+.newsletter form button {
+    background-color: #a237cc;
+    border-color: #a237cc;
+    text-transform: uppercase;
+} 
+.newsletter form button:hover {
+    background-color: #f7c2f7;
+    border-color: #bd8abd;
+} 
+.brands ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    list-style: none;
+}
+.brands ul li{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+footer{
+    background-color: #515D6A;
+    padding: 48px 0;
+    color: #fff;
+}
+footer h5{
+    margin: 0 0 32px 48px;
+}
+
+footer ul{
+    list-style: none;
+    margin-left: 16px;   
+}
+
+footer li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+footer li a:hover {
+    color: #515D6A;
+    text-decoration: none;
+
+}
